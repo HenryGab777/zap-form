@@ -4,6 +4,10 @@
 
 **Monteiro Burger** é um formulário web de checkout (endereço de entrega) desenvolvido para coletar informações de clientes e enviar diretamente para o WhatsApp do restaurante. O sistema permite que clientes preencham seu endereço de forma rápida e intuitiva, com suporte a geolocalização e busca automática de CEP.
 
+## 🚀 Como acessar
+Para acessar o site, basta clicar no link:
+[👉 Visite o site aqui](enderecopadronizar.netlify.app)
+
 ---
 
 ## 🏗️ Estrutura do Projeto
