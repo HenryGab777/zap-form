@@ -10,11 +10,17 @@
 
 ```
 zap-form/
-└── MonteiroTYPE .html          # Arquivo principal com HTML, CSS e JavaScript
+├── index.html                  # Arquivo principal com estrutura HTML
+├── README.md                   # Documentação do projeto
+├── assets/
+│   ├── script.js              # JavaScript com funções interativas
+│   └── style.css              # Estilos customizados do projeto
 ```
 
 ### Arquivos
-- **MonteiroTYPE .html** - Página única responsiva contendo todo o sistema (HTML + CSS + JavaScript)
+- **index.html** - Arquivo principal com estrutura HTML e referências aos arquivos externos
+- **assets/script.js** - Contém todas as funções JavaScript (CEP, geolocalização, WhatsApp)
+- **assets/style.css** - Estilos customizados com cores e animações do restaurante
 
 ---
 
@@ -123,24 +129,38 @@ zap-form/
 
 ---
 
+## 🌐 Acessar Online
+
+**O projeto está hospedado em:** [enderecopadronizar.netlify.app](https://enderecopadronizar.netlify.app)
+
+Basta clicar no link acima para acessar o formulário de entrega do Monteiro Burger!
+
+---
+
 ## 🚀 Como Usar
 
 ### Instalação
-Nenhuma instalação necessária! É um arquivo HTML único.
+Nenhuma instalação necessária! Arquivos prontos para usar.
 
 ### Executar Localmente
-1. Salve o arquivo `MonteiroTYPE .html` no seu computador
-2. Abra em qualquer navegador moderno (Chrome, Firefox, Safari, Edge)
-3. Preencha o formulário e teste a funcionalidade
+1. Clone ou baixe os arquivos do projeto
+2. Certifique-se de que os arquivos estão nesta estrutura:
+   ```
+   zap-form/
+   ├── index.html
+   └── assets/
+       ├── script.js
+       └── style.css
+   ```
+3. Abra o arquivo `index.html` em qualquer navegador moderno (Chrome, Firefox, Safari, Edge)
+4. Preencha o formulário e teste a funcionalidade
 
 ### Publicar Online
 - Hospede em qualquer servidor web (GitHub Pages, Netlify, Vercel, etc.)
-- Exemplo com GitHub Pages:
-  ```bash
-  git add MonteiroTYPE .html
-  git commit -m "Adicionar formulário de entrega"
-  git push origin main
-  ```
+- Se usar Netlify:
+  1. Faça upload da pasta do projeto
+  2. Configure o build (sem necessidade de configuração adicional)
+  3. Obtenha seu link único para compartilhar
 
 ---
 
@@ -252,6 +272,7 @@ Este projeto é propriedade da Monteiro Burger. Todos os direitos reservados.
 
 ---
 
-**Versão:** 1.0  
-**Data:** Março 2026  
-**Desenvolvido para:** Monteiro Burger
+**Versão:** 2.0  
+**Data:** Abril 2026  
+**Desenvolvido para:** Monteiro Burger  
+**Link Online:** [enderecopadronizar.netlify.app](https://enderecopadronizar.netlify.app)
