@@ -4,12 +4,14 @@
 
 **Monteiro Burger** é um formulário web de checkout (endereço de entrega) desenvolvido para coletar informações de clientes e enviar diretamente para o WhatsApp do restaurante. O sistema permite que clientes preencham seu endereço de forma rápida e intuitiva, com suporte a geolocalização e busca automática de CEP.
 
+
 ---
 
 ## 🏗️ Estrutura do Projeto
 
 ```
 zap-form/
+<<<<<<< HEAD
 ├── index.html                  # Arquivo principal com estrutura HTML
 ├── README.md                   # Documentação do projeto
 ├── assets/
@@ -21,6 +23,14 @@ zap-form/
 - **index.html** - Arquivo principal com estrutura HTML e referências aos arquivos externos
 - **assets/script.js** - Contém todas as funções JavaScript (CEP, geolocalização, WhatsApp)
 - **assets/style.css** - Estilos customizados com cores e animações do restaurante
+=======
+└── index.html
+     # Arquivo principal com HTML, CSS e JavaScript
+```
+
+### Arquivos
+- **index.html** - Página única responsiva contendo todo o sistema (HTML + CSS + JavaScript)
+>>>>>>> b3764b56dcbcf28c80f9fcebbca8991a0aa037b6
 
 ---
 
@@ -143,6 +153,7 @@ Basta clicar no link acima para acessar o formulário de entrega do Monteiro Bur
 Nenhuma instalação necessária! Arquivos prontos para usar.
 
 ### Executar Localmente
+<<<<<<< HEAD
 1. Clone ou baixe os arquivos do projeto
 2. Certifique-se de que os arquivos estão nesta estrutura:
    ```
@@ -161,6 +172,20 @@ Nenhuma instalação necessária! Arquivos prontos para usar.
   1. Faça upload da pasta do projeto
   2. Configure o build (sem necessidade de configuração adicional)
   3. Obtenha seu link único para compartilhar
+=======
+1. Salve o arquivo `index.html` no seu computador
+2. Abra em qualquer navegador moderno (Chrome, Firefox, Safari, Edge)
+3. Preencha o formulário e teste a funcionalidade
+
+### Publicar Online
+- Hospede em qualquer servidor web (GitHub Pages, Netlify, Vercel, etc.)
+- Exemplo com GitHub Pages:
+  ```bash
+  git add index.html
+  git commit -m "Adicionar formulário de entrega"
+  git push origin main
+  ```
+>>>>>>> b3764b56dcbcf28c80f9fcebbca8991a0aa037b6
 
 ---
 
