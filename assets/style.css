@@ -1,0 +1,72 @@
+        :root {
+            --verde-logo: #205c44;
+            --bege-logo: #f9f8f4;
+            --amarelo-destaque: #FFC107;
+            --whatsapp-green: #25D366;
+        }
+
+        body { 
+            background-color: var(--bege-logo); 
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .card-container {
+            background-color: var(--verde-logo);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            width: 95%;
+            max-width: 450px;
+            margin: auto;
+        }
+
+        /* Suavização das letras e inputs */
+        input {
+            background-color: rgba(255, 255, 255, 0.98) !important;
+            border: 2px solid transparent !important;
+            transition: all 0.2s ease-in-out;
+            font-size: 16px !important; 
+            height: 48px; 
+            border-radius: 12px !important;
+        }
+
+        input:focus {
+            border-color: var(--amarelo-destaque) !important;
+            outline: none;
+            transform: scale(1.01);
+        }
+
+        /* Botão Oficial WhatsApp */
+        .btn-whatsapp {
+            background-color: var(--whatsapp-green);
+            color: #ffffff;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 14px 0 rgba(37, 211, 102, 0.39);
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #20bd5a;
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.23);
+        }
+
+        .btn-whatsapp:active {
+            transform: scale(0.97);
+        }
+
+        label {
+            color: var(--amarelo-destaque) !important;
+            font-weight: 700 !important;
+            letter-spacing: 0.02em;
+            font-size: 0.75rem;
+            margin-bottom: 4px;
+            display: block;
+        }
+
+        /* Efeito de vidro suave para o cabeçalho */
+        .glass-header {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
