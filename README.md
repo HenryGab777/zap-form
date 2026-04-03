@@ -4,9 +4,6 @@
 
 **Monteiro Burger** é um formulário web de checkout (endereço de entrega) desenvolvido para coletar informações de clientes e enviar diretamente para o WhatsApp do restaurante. O sistema permite que clientes preencham seu endereço de forma rápida e intuitiva, com suporte a geolocalização e busca automática de CEP.
 
-## 🚀 Como acessar
-Para acessar o site, basta clicar no link:
-[👉 Visite o site aqui](enderecopadronizar.netlify.app)
 
 ---
 
@@ -14,11 +11,12 @@ Para acessar o site, basta clicar no link:
 
 ```
 zap-form/
-└── MonteiroTYPE .html          # Arquivo principal com HTML, CSS e JavaScript
+└── index.html
+     # Arquivo principal com HTML, CSS e JavaScript
 ```
 
 ### Arquivos
-- **MonteiroTYPE .html** - Página única responsiva contendo todo o sistema (HTML + CSS + JavaScript)
+- **index.html** - Página única responsiva contendo todo o sistema (HTML + CSS + JavaScript)
 
 ---
 
@@ -133,7 +131,7 @@ zap-form/
 Nenhuma instalação necessária! É um arquivo HTML único.
 
 ### Executar Localmente
-1. Salve o arquivo `MonteiroTYPE .html` no seu computador
+1. Salve o arquivo `index.html` no seu computador
 2. Abra em qualquer navegador moderno (Chrome, Firefox, Safari, Edge)
 3. Preencha o formulário e teste a funcionalidade
 
@@ -141,7 +139,7 @@ Nenhuma instalação necessária! É um arquivo HTML único.
 - Hospede em qualquer servidor web (GitHub Pages, Netlify, Vercel, etc.)
 - Exemplo com GitHub Pages:
   ```bash
-  git add MonteiroTYPE .html
+  git add index.html
   git commit -m "Adicionar formulário de entrega"
   git push origin main
   ```
